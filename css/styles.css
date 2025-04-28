@@ -1,0 +1,30 @@
+body.light-theme {
+  --background: #ffffff;
+  --text-color: #18191F;
+  --color-btn: #8C30F5;
+  --btn-hover-color: #7a24d9;
+  --box-shadow: rgba(0, 0, 0, 0.07);
+  --color-border: #e5e9f2;
+  --toggle-theme: 2px;
+}
+
+body.dark-theme {
+  --background: #0B0D17;
+  --text-color: #FFFFFF;
+  --color-btn: #8C30F5;
+  --btn-hover-color: #7a24d9;
+  --box-shadow: rgba(255, 255, 255, 0.07);
+  --color-border: #ffffff;
+  --toggle-theme: 10px;
+}
+
+.w-slider-nav-invert > div.w-active {
+  background-color: var(--color-btn);
+}
+
+body .w-slider-nav-invert > div {
+  border: 2px solid var(--color-btn);
+  width: 10px;
+  height: 10px;
+}
+
